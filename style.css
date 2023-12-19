@@ -1,0 +1,68 @@
+*{
+    font-family: arial;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.ourTutorSubjects{
+    padding-top: 30px;
+}
+
+.textoTitulo{
+    text-align: center;
+    font-weight: 700;
+}
+
+.textoTitulo > h2{
+    color: brown;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.textoTitulo > p{
+    font-size: 20px
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10px;
+}
+.contenido{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+
+.contenidoMaterias{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    
+}
+
+
+.materias{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    height: 30px;
+    padding: 5px;
+    left: 30px;
+    font-size: 15px;
+    border: 1px solid black;
+    height: 30px;
+}
+
+
+
+.imagen{
+    height: 20px;
+    background-color: green;
+    margin-right: 10px;
+}
